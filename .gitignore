@@ -1,0 +1,40 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Generated application data
+outputs/
+work/
+agent_memory/
+agent_memory_test/
+*.log
+
+# .NET / Revit build output
+revit_addin/bin/
+revit_addin/obj/
+revit_addin/.dotnet-local/
+revit_addin/.nuget-packages/
+revit_addin/lib/
+revit_addin/compile.rsp
+*.user
+*.suo
+
+# Local OS/editor files
+*.lnk
+Thumbs.db
+.DS_Store
+
+# Generated CAD backups and proprietary project files
+*.bak
+*.rvt
+*.rfa
+*.dwg
