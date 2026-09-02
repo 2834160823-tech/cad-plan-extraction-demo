@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>AI Revit Modeling</Name>
+    <Assembly>REPLACE_WITH_ABSOLUTE_PATH_TO_AiRevitModeling.dll</Assembly>
+    <AddInId>8C4D6F6B-44D4-46FA-8D0C-FDA7BE4F7B45</AddInId>
+    <FullClassName>AiRevitModeling.AiRevitModelingCommand</FullClassName>
+    <VendorId>CODX</VendorId>
+    <VendorDescription>AI structured data to Revit API modeling demo</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Name>AI Family Preview Export</Name>
+    <Assembly>REPLACE_WITH_ABSOLUTE_PATH_TO_AiRevitModeling.dll</Assembly>
+    <AddInId>F69B2F02-5C9B-4D2D-A84E-3E474693A638</AddInId>
+    <FullClassName>AiRevitModeling.FamilyPreviewExportCommand</FullClassName>
+    <VendorId>CODX</VendorId>
+    <VendorDescription>Export Revit family type preview images and mapping index</VendorDescription>
+  </AddIn>
+</RevitAddIns>
